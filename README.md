@@ -19,7 +19,7 @@ sudo cp zerofetch /usr/local/bin
 
 To Use Your Favorite Theme, Open The File, Then Uncomment Your Favorite Theme, The Default Theme Is Shark.
 
-***Shark Theme (Defualt)***
+***Shark Theme (Default)***
 
 ![](Images/Shark.png)
 
