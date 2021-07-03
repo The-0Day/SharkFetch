@@ -45,5 +45,14 @@ If Your Terminal Doesnt Show Icons Well, You Have to Install a Nerd Font.<br/>
 ``` wget https://github.com/The-0Day/Shark-Fetch/raw/main/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf -O '~/.fonts/JetBrains Mono Regular Nerd Font.ttf' && fc-cache -f```<br/>
 After Install, Go to Your Terminal's Configuration and Select Jetbrains Font As Default.
 
-     
-  
+### Bonus Tip
+Enter ```sharkfetch -t wood``` and You Will See The Big Wood Guy :D
+
+### Contribution
+Open Source Projects alive with contribution and without participation a lot of daily used projects remain at the first step.<br/>
+Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
+
+
+### Credits:
+[Ali F](https://github.com/Ali-Frh) (@ShopBoy)<br/>
+[The-0Day](https://github.com/The-0Day)
