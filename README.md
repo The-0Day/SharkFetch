@@ -55,7 +55,7 @@ Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
 
 ## Team
 This project is maintained by the following people.
-| [![The-0Day](https://github.com/The-0Day.png?size=100)](https://github.com/mahdymirzade) | [![Ali-Frh](https://github.com/Ali-Frh.png?size=100)](https://github.com/Ali-Frh)  |
+| [![The-0Day](https://github.com/The-0Day.png?size=100)](https://github.com/The-0Day) | [![Ali-Frh](https://github.com/Ali-Frh.png?size=100)](https://github.com/Ali-Frh)  |
 | --- | --- |
 | [The-0Day](https://github.com/The-0Day) | [Ali-Frh](https://github.com/Ali-Frh) |
 
