@@ -47,7 +47,7 @@ After clone this repo, copy all fonts to ```.fonts```
 ### Bonus Tip
 Enter ```sharkfetch -t wood``` and You Will See The Big Wood Guy :D
 
-### Contribution
+### Contribution :handshake:
 Open Source Projects alive with contribution and without participation a lot of daily used projects remain at the first step.<br/>
 Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
 
