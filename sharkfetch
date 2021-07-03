@@ -1,41 +1,6 @@
 #!/bin/bash
 
 ##################################################################
-######################### Constants ##############################
-##################################################################
-
-
-S0="${reset}${BLACK}"
-S1="${reset}${RED}"
-S2="${reset}${GREEN}"
-S3="${reset}${YELLOW}"
-S4="${reset}${RED}"
-S5="${reset}${PURPLE}"
-S6="${reset}${CYAN}"
-S7="${reset}${YELLOW}"
-S10="${BOLD}${GREEN}"
-S8="${BOLD}${BLUE}"
-S9="${BOLD}${GREEN}"
-S11="${BOLD}${PURPLE}"
-
-RED=`tput setaf 1`
-GREEN=`tput setaf 2`
-YELLOW=`tput setaf 3`
-BLUE=`tput setaf 4`
-PURPLE=`tput setaf 5`
-CYAN=`tput setaf 6`
-WHITE=`tput setaf 7`
-BLACK=`tput setaf 8`
-ORANGE=`tput setaf 9`
-
-
-theme=$colorshark #Set as Default Theme
-
-# Making Default Directories 
-    mkdir -p "$HOME/.config/SharkFetch/themes" 2> /dev/null
-
-
-##################################################################
 ###################### Default Themes ############################
 ##################################################################
 greyshark=":-=-:::::..:::--::::::----:::::::====++=
@@ -103,6 +68,40 @@ woodtheme="[38;2;103;68;37m:[0m[38;2;111;67;36m:[0m[38;2;97;54;28m:[0m[38
 
 
 ##################################################################
+######################### Constants ##############################
+##################################################################
+
+
+S0="${reset}${BLACK}"
+S1="${reset}${RED}"
+S2="${reset}${GREEN}"
+S3="${reset}${YELLOW}"
+S4="${reset}${RED}"
+S5="${reset}${PURPLE}"
+S6="${reset}${CYAN}"
+S7="${reset}${YELLOW}"
+S10="${BOLD}${GREEN}"
+S8="${BOLD}${BLUE}"
+S9="${BOLD}${GREEN}"
+S11="${BOLD}${PURPLE}"
+
+RED=`tput setaf 1`
+GREEN=`tput setaf 2`
+YELLOW=`tput setaf 3`
+BLUE=`tput setaf 4`
+PURPLE=`tput setaf 5`
+CYAN=`tput setaf 6`
+WHITE=`tput setaf 7`
+BLACK=`tput setaf 8`
+ORANGE=`tput setaf 9`
+
+
+theme=$colorshark #Set as Default Theme
+
+# Making Default Directories 
+    mkdir -p "$HOME/.config/SharkFetch/themes" 2> /dev/null
+
+##################################################################
 ######################## Arg Parser ##############################
 ##################################################################
 
@@ -153,6 +152,8 @@ Example:
             ;;
         esac
       ;;
+    -u|--update)
+        sudo wget https://raw.githubusercontent.com/The-0Day/SharkFetch/main/sharkfetch -O /usr/local/bin/sharkfetch && 
     -l|--list)
         configdir=$(ls "$HOME/.config/SharkFetch/themes/" 2> /dev/null)
         if [[ $configdir == "" ]]
