@@ -152,11 +152,6 @@ Example:
             ;;
         esac
       ;;
-    -u|--update)
-        sudo wget https://raw.githubusercontent.com/The-0Day/SharkFetch/main/sharkfetch -O /usr/local/bin/sharkfetch && echo Done !
-        shift
-        shift
-        ;;
     -l|--list)
         configdir=$(ls "$HOME/.config/SharkFetch/themes/" 2> /dev/null)
         if [[ $configdir == "" ]]
@@ -198,8 +193,8 @@ Custom Themes : $configdir"
 
                             ${YELLOW}Version: 0.01
                             
-        ${YELLOW}Gitlab: https://gitlab.com/The-0Day/Shark-Fetch
-        ${YELLOW}Github: https://github.com/The-0Day/Shark-Fetch
+        ${YELLOW}Gitlab: https://gitlab.com/The-0Day/SharkFetch
+        ${YELLOW}Github: https://github.com/The-0Day/SharkFetch
         ${YELLOW}License:${RED} BSD 2-Clause License
 
              ${GREEN}Coders:${BLUE} Ali F (@ShopBoy) ${GREEN}& ${CYAN}The-0Day
