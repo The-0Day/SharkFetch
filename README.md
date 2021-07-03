@@ -20,35 +20,17 @@ sudo cp zerofetch /usr/local/bin
 
 
 ## Themes
-This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.
+This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
 Recommended Size For Your ASCII Art is 40x20
 
-For Load Your Theme Just Once (In Directory which Your Theme Located Too (example.txt)):
+For Load Your Theme Just Once:<br/>(In Directory which Your Theme Located Too (example.txt))
   ```sharkfetch -t example.txt```
 
-But You Can Import Your Theme in Configuration Directory and Use it Several Times:
-First of All Put Your Theme File in ```~/.config/SharkFetch/themes/```
-its Better to Remove .txt Extension From The File, Then
+But You Can Import Your Theme in Configuration Directory and Use it Several Times: <br/>
+First of All Put Your Theme File in ```~/.config/SharkFetch/themes/```<br/>
+its Better to Remove .txt Extension From The File, Then<br/>
   ```sharkfetch -t example
      #it will use theme ~/.config/SharkFetch/themes/example```
 
      
   
-
-***Shark Theme (Default)***
-
-![](Images/Shark.png)
-
-***Arch Theme***
-
-![](Images/Arch.png)
-
-***Halloween Theme***
-
-![](Images/Halloween.png)
-
-
-
-
-
-
