@@ -1,6 +1,8 @@
 # SharkFetch
   an Eye-Candy Customizable CLI System Information Tool 
 
+![](Images/colorshark-debian.png)
+
 ## Installation
 ### One-Linear Install
 ```
@@ -20,6 +22,7 @@ sudo cp sharkfetch /usr/local/bin
 
 
 ## Themes
+![](Images/greyshark-slackware.png )
 This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
 You Can Use [This Project](https://github.com/TheZoraiz/ascii-image-converter) to Make ASCII Arts.
 Recommended Size For Your ASCII Art is 40x20
@@ -47,7 +50,7 @@ After clone this repo, copy all fonts to ```.fonts```
 ### Bonus Tip
 Enter ```sharkfetch -t wood``` and You Will See The Big Wood Guy :D
 
-### Contribution
+### Contribution :handshake:
 Open Source Projects alive with contribution and without participation a lot of daily used projects remain at the first step.<br/>
 Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
 
