@@ -2,6 +2,11 @@
 Zero-Fetch : A CLI System Information Tool 
 
 ## Installation
+### One-Linear Install
+```
+sudo wget https://raw.githubusercontent.com/The-0Day/Shark-Fetch/main/sharkfetch -O /usr/local/bin/sharkfetch && sudo chmod +x /usr/local/bin/sharkfetch
+```
+### Clone & Install
 ```
 git clone https://github.com/The-0Day/Zero-Fetch.git
 
