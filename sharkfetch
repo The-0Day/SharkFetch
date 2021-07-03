@@ -31,7 +31,7 @@ ORANGE=`tput setaf 9`
 
 theme=$colorshark #Set as Default Theme
 
-# Making Default Folders 
+# Making Default Directories 
     mkdir -p "$HOME/.config/SharkFetch/themes" 2> /dev/null
 
 
@@ -134,7 +134,7 @@ while [[ $# -gt 0 ]]; do
                 # it means user passed a file path in --theme opt.
                 theme=$(cat $2)
             elif test -f "$HOME/.config/SharkFetch/themes/$2"; then
-                # it means user wants to use a theme from config folder
+                # it means user wants to use a theme from config Dir
                 theme=$(cat "$HOME/.config/SharkFetch/themes/$2")
             else
                 echo "Wrong Theme !
@@ -154,14 +154,14 @@ Example:
         esac
       ;;
     -l|--list)
-        configfolder=$(ls "$HOME/.config/SharkFetch/themes/" 2> /dev/null)
-        if [[ $configfolder == "" ]]
+        configdir=$(ls "$HOME/.config/SharkFetch/themes/" 2> /dev/null)
+        if [[ $configdir == "" ]]
         then    
-            configfolder="Folder is Empty"
+            configdir="Directory is Empty"
         fi
         echo "Available Themes:
 Default Themes: color grey wood
-Custom Themes : $configfolder"
+Custom Themes : $configdir"
         exit 0
         shift
         shift
