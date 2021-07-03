@@ -153,7 +153,10 @@ Example:
         esac
       ;;
     -u|--update)
-        sudo wget https://raw.githubusercontent.com/The-0Day/SharkFetch/main/sharkfetch -O /usr/local/bin/sharkfetch && 
+        sudo wget https://raw.githubusercontent.com/The-0Day/SharkFetch/main/sharkfetch -O /usr/local/bin/sharkfetch && echo Done !
+        shift
+        shift
+        ;;
     -l|--list)
         configdir=$(ls "$HOME/.config/SharkFetch/themes/" 2> /dev/null)
         if [[ $configdir == "" ]]
