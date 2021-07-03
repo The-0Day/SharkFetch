@@ -1,6 +1,8 @@
 # SharkFetch
   an Eye-Candy Customizable CLI System Information Tool 
 
+![](Images/colorshark-debian.png)
+
 ## Installation
 ### One-Linear Install
 ```
@@ -18,6 +20,7 @@ chmod +x sharkfetch
 sudo cp sharkfetch /usr/local/bin
 ```
 
+![](Images/greyshark-slackware.png )
 
 ## Themes
 This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
