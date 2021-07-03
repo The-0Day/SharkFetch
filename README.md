@@ -42,8 +42,7 @@ Note: If You Made an Awesome Theme which You Think Maybe Someone Likes too, Feel
 #### Icons Issue
 If Your Terminal Doesnt Show Icons Well, You Have to Install a Nerd Font.<br/>
 ##### Install Our Recommended Font:
-``` wget https://github.com/The-0Day/Shark-Fetch/raw/main/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf -O '~/.fonts/JetBrains Mono Regular Nerd Font.ttf' && fc-cache -f```<br/>
-After Install, Go to Your Terminal's Configuration and Select Jetbrains Font As Default.
+After clone this repo, copy all fonts to ```.fonts```
 
 ### Bonus Tip
 Enter ```sharkfetch -t wood``` and You Will See The Big Wood Guy :D
@@ -53,6 +52,12 @@ Open Source Projects alive with contribution and without participation a lot of 
 Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
 
 
-### Credits:
-[Ali F](https://github.com/Ali-Frh) (@ShopBoy)<br/>
-[The-0Day](https://github.com/The-0Day)
+
+## Team
+This project is maintained by the following people.
+| [![The-0Day](https://github.com/The-0Day.png?size=100)](https://github.com/mahdymirzade) | [![Ali-Frh](https://github.com/Ali-Frh.png?size=100)](https://github.com/Ali-Frh)  |
+| --- | --- |
+| [The-0Day](https://github.com/The-0Day) | [Ali-Frh](https://github.com/Ali-Frh) |
+
+
+
