@@ -20,9 +20,9 @@ chmod +x sharkfetch
 sudo cp sharkfetch /usr/local/bin
 ```
 
-![](Images/greyshark-slackware.png )
 
 ## Themes
+![](Images/greyshark-slackware.png )
 This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
 You Can Use [This Project](https://github.com/TheZoraiz/ascii-image-converter) to Make ASCII Arts.
 Recommended Size For Your ASCII Art is 40x20
