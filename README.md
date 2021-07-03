@@ -8,22 +8,25 @@ sudo wget https://raw.githubusercontent.com/The-0Day/Shark-Fetch/main/sharkfetch
 ```
 ### Clone & Install
 ```
-git clone https://github.com/The-0Day/Zero-Fetch.git
+git clone https://github.com/The-0Day/SharkFetch.git
 ```
 
 Make The File Executable And Put sharkfetch In ```/usr/local/bin```
 ```
-cd Zero-Fetch
-chmod +x zerofetch
-sudo cp zerofetch /usr/local/bin
+cd SharkFetch
+chmod +x sharkfetch
+sudo cp sharkfetch /usr/local/bin
 ```
 
 
 ## Themes
 This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
+You Can Use [This Project](https://github.com/TheZoraiz/ascii-image-converter) to Make ASCII Arts.
 Recommended Size For Your ASCII Art is 40x20
 
-For Load Your Theme Just Once:<br/>(In Directory which Your Theme Located Too (example.txt))
+
+For Loading Your Theme Just Once:<br/>\
+(In Directory which Your Theme Located Too (example.txt))
   ```sharkfetch -t example.txt```
 
 But You Can Import Your Theme in Configuration Directory and Use it Several Times: <br/>
@@ -39,7 +42,7 @@ Note: If You Made an Awesome Theme which You Think Maybe Someone Likes too, Feel
 #### Icons Issue
 If Your Terminal Doesnt Show Icons Well, You Have to Install a Nerd Font.<br/>
 ##### Install Our Recommended Font:
-``` wget https://github.com/The-0Day/Shark-Fetch/raw/main/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf -O '~/.fonts/JetBrains Mono Regular Nerd Font.ttf' && fc-cache -f```
+``` wget https://github.com/The-0Day/Shark-Fetch/raw/main/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf -O '~/.fonts/JetBrains Mono Regular Nerd Font.ttf' && fc-cache -f```<br/>
 After Install, Go to Your Terminal's Configuration and Select Jetbrains Font As Default.
 
      
