@@ -29,8 +29,8 @@ For Load Your Theme Just Once:<br/>(In Directory which Your Theme Located Too (e
 But You Can Import Your Theme in Configuration Directory and Use it Several Times: <br/>
 First of All Put Your Theme File in ```~/.config/SharkFetch/themes/```<br/>
 its Better to Remove .txt Extension From The File, Then<br/>
-  ```sharkfetch -t example
-     #it will use theme ~/.config/SharkFetch/themes/example```
+  ```sharkfetch -t example```
+      it will use theme ~/.config/SharkFetch/themes/example
 
      
   
