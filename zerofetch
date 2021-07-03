@@ -233,12 +233,15 @@ set -- "${POSITIONAL[@]}"
 
 pkgs(){
     
-    if hash dpkg 2>/dev/null
+    if hash dpkg 2>/dev/null                        #Debian
     then
         pkgs=$(dpkg --list | grep -c ^ii)
-    elif hash pacman 2>/dev/null
+    elif hash pacman 2>/dev/null                    #ArchLinux
     then
         pkgs=$(pacman -Q | wc -l)
+    elif [[ $(ls /var/log/packages | wc -l) != 0 ]] #Slackware
+    then
+        pkgs=$(ls /var/log/packages | wc -l)
     else
         pkgs="null"
     fi
