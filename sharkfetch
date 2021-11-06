@@ -236,6 +236,9 @@ pkgs(){
     elif hash pacman 2>/dev/null                    #ArchLinux
     then
         pkgs=$(pacman -Q | wc -l)
+    elif hash eopkg 2>/dev/null                      #Solus
+    then
+        pkgs=$(eopkg li | wc -l)
     elif [[ $(ls /var/log/packages | wc -l) != 0 ]] #Slackware
     then
         pkgs=$(ls /var/log/packages | wc -l)
