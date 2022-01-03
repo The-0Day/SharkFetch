@@ -23,12 +23,12 @@ sudo cp sharkfetch /usr/local/bin
 
 ## Themes
 ![](Images/greyshark-slackware.png )<br/><br/>
-This Script Can Loads ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
+This Script Can Load ASCII Art as Themes, It Has 3 Default Themes but You Can Use Your Custom Themes Too.<br/>
 You Can Use [This Project](https://github.com/TheZoraiz/ascii-image-converter) to Make ASCII Arts.
 Recommended Size For Your ASCII Art is 40x20
 
 
-For Loading Your Theme Just Once:<br/>\
+In Order To Load:<br/>\
 (In Directory which Your Theme Located Too (example.txt))
   ```sharkfetch -t example.txt```
 
@@ -39,19 +39,19 @@ its Better to Remove .txt Extension From The File, Then<br/>
       it will use ~/.config/SharkFetch/themes/example theme
 
 <br/>Tip: You Can Findout Available Themes With ```--list``` or ```-l``` Switch.<br/>
-Note: If You Made an Awesome Theme which You Think Maybe Someone Likes too, Feel Free to PR it On ```Users_Themes``` Directory of Main Repo.
+Note: If You Made an Awesome Theme which You Think Someone Would Like too, Feel Free to PR it On ```Users_Themes``` Directory of Main Repo.
 
 ### Known Issues
 #### Icons Issue
-If Your Terminal Doesnt Show Icons Well, You Have to Install a Nerd Font.<br/>
+If Your Terminal Doesn't Show Icons Well, You Have to Install a Nerd Font.<br/>
 ##### Install Our Recommended Font:
-After clone this repo, copy all fonts to ```.fonts```
+Then clone this repo, copy all fonts to ```.fonts```
 
 ### Bonus Tip
 Enter ```sharkfetch -t wood``` and You Will See The Big Wood Guy :D
 
 ### Contribution :handshake:
-Open Source Projects alive with contribution and without participation a lot of daily used projects remain at the first step.<br/>
+Open Source Projects Live With Contributions & Without Participation a Lot of Daily Used Projects Would Have Remained at The First Step.<br/>
 Feel Free to Tell us Your Ideas and PR if This Script Has Bugs on your Distro.
 
 
